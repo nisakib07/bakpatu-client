@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "courseId": 1,
+    "serialNo": 1,
+    "title": "HTML Basics",
+    "videoUrl": "https://example.com/html-basics",
+    "banner": "https://i.ibb.co/zPQMMWP/data.jpg"
+  },
+  {
+    "id": 2,
+    "courseId": 1,
+    "serialNo": 2,
+    "title": "CSS Fundamentals",
+    "videoUrl": "https://example.com/css-fundamentals",
+    "banner": "https://i.ibb.co/dmwCJYW/mobile.jpg"
+  },
+  {
+    "id": 3,
+    "courseId": 1,
+    "serialNo": 3,
+    "title": "JavaScript Essentials",
+    "videoUrl": "https://example.com/js-essentials",
+    "banner": "https://i.ibb.co/T23yNCw/web.jpg"
+  }
+]

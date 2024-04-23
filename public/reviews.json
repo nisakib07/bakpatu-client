@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "review": "Bakpatu has been an amazing experience for me. The quality of the products is top-notch, and the service is excellent. I highly recommend it!",
+    "img": "https://i.ibb.co/JQnMjLn/teacher-demo.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "review": "I've been using Bakpatu for a while now, and I'm impressed with the variety of products available. The prices are competitive, and the delivery is always on time.",
+    "img": "https://i.ibb.co/JQnMjLn/teacher-demo.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "review": "Bakpatu has become my go-to platform for all my shopping needs. Whether it's groceries, electronics, or clothing, I can always find what I need here. The customer service is also excellent.",
+    "img": "https://i.ibb.co/JQnMjLn/teacher-demo.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Emily Brown",
+    "review": "I love shopping on Bakpatu! The user interface is intuitive, making it easy to find what I'm looking for. The prices are great, and I appreciate the fast delivery.",
+    "img": "https://i.ibb.co/JQnMjLn/teacher-demo.jpg"
+  }
+]

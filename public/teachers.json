@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "designation": "Mathematics Teacher",
+    "email": "john@example.com",
+    "phone": "1234567890",
+    "createdAt": "2022-04-20T10:30:00"
+  },
+  {
+    "id": 2,
+    "name": "Alice Smith",
+    "designation": "English Teacher",
+    "email": "alice@example.com",
+    "phone": "9876543210",
+    "createdAt": "2022-04-21T11:45:00"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "designation": "Science Teacher",
+    "email": "michael@example.com",
+    "phone": "5551234567",
+    "createdAt": "2022-04-22T09:15:00"
+  },
+  {
+    "id": 4,
+    "name": "Emily Brown",
+    "designation": "History Teacher",
+    "email": "emily@example.com",
+    "phone": "3339876543",
+    "createdAt": "2022-04-23T08:00:00"
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "designation": "Art Teacher",
+    "email": "david@example.com",
+    "phone": "1112223333",
+    "createdAt": "2022-04-24T12:00:00"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "category": "Web Development"
+  },
+  {
+    "id": 2,
+    "category": "Data Science"
+  },
+  {
+    "id": 3,
+    "category": "Mobile Development"
+  }
+]

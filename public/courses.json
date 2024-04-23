@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "courseName": "Web Development Bootcamp",
+    "price": 199,
+    "durationHours": 40,
+    "category": "Web Development",
+    "bannerImg": "https://i.ibb.co/T23yNCw/web.jpg",
+    "introVideoUrl": "https://www.youtube.com/watch?v=ABCDEFG",
+    "description": "This comprehensive Web Development Bootcamp covers everything you need to know to become a proficient web developer. Starting from the basics of HTML, CSS, and JavaScript, you'll progress through advanced topics such as responsive design, front-end frameworks like React and Angular, back-end development with Node.js, databases, and deployment strategies. By the end of the bootcamp, you'll have the skills to build professional-quality websites and web applications."
+  },
+  {
+    "id": 2,
+    "courseName": "Data Science Essentials",
+    "price": 249,
+    "durationHours": 30,
+    "category": "Data Science",
+    "bannerImg": "https://i.ibb.co/zPQMMWP/data.jpg",
+    "introVideoUrl": "https://www.youtube.com/watch?v=HIJKLMN",
+    "description": "Data Science Essentials is a comprehensive course designed to provide you with a solid foundation in data science. You'll learn statistical analysis, data manipulation, machine learning algorithms, data visualization techniques, and more. Through hands-on projects and real-world case studies, you'll gain practical experience in solving data-driven problems and extracting valuable insights from complex datasets. Whether you're new to data science or looking to enhance your skills, this course will help you succeed in the field."
+  },
+  {
+    "id": 3,
+    "courseName": "Mobile App Development",
+    "price": 299,
+    "durationHours": 50,
+    "category": "Mobile Development",
+    "bannerImg": "https://i.ibb.co/dmwCJYW/mobile.jpg",
+    "introVideoUrl": "https://www.youtube.com/watch?v=OPQRSTU",
+    "description": "Mobile App Development is a comprehensive course that teaches you how to build mobile applications for iOS and Android platforms. You'll learn app development using popular frameworks like React Native and Flutter, as well as native development with Swift and Kotlin. From designing user interfaces to implementing complex features and deploying apps to app stores, this course covers all aspects of mobile app development. Whether you're an aspiring app developer or a seasoned programmer, this course will equip you with the skills to create stunning and functional mobile apps."
+  }
+]
