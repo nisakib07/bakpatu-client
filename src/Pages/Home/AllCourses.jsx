@@ -69,7 +69,7 @@ const AllCourses = () => {
                 .map((course) => (
                   <div
                     key={course.id}
-                    className="p-4 border rounded-lg my-2 hover:shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:cursor-pointer hover:border-first bg-gray">
+                    className="p-4 border rounded-lg my-2 hover:shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-3 hover:cursor-pointer hover:border-first bg-gray">
                     <img
                       src={course.bannerImg}
                       alt={course.courseName}

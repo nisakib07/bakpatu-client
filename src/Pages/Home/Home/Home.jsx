@@ -3,6 +3,7 @@ import Banner from "../Banner";
 import Navbar from "../Navbar";
 import Reviews from "../Reviews";
 import Why from "../Why";
+import WorkProcedure from "../WorkProcedure";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <AllCourses></AllCourses>
       <Why></Why>
       <Reviews></Reviews>
+      <WorkProcedure></WorkProcedure>
     </div>
   );
 };
