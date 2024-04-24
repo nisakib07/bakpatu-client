@@ -1,3 +1,4 @@
+import Footer from "../../../components/Footer";
 import AllCourses from "../AllCourses";
 import Banner from "../Banner";
 import Media from "../Media";
@@ -16,6 +17,7 @@ const Home = () => {
       <Reviews></Reviews>
       <WorkProcedure></WorkProcedure>
       <Media></Media>
+      <Footer></Footer>
     </div>
   );
 };
