@@ -1,5 +1,6 @@
 import AllCourses from "../AllCourses";
 import Banner from "../Banner";
+import Media from "../Media";
 import Navbar from "../Navbar";
 import Reviews from "../Reviews";
 import Why from "../Why";
@@ -14,6 +15,7 @@ const Home = () => {
       <Why></Why>
       <Reviews></Reviews>
       <WorkProcedure></WorkProcedure>
+      <Media></Media>
     </div>
   );
 };
