@@ -8,6 +8,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import Wrapper from "../../components/Wrapper";
+import AdminSidebar from "../AdminDashboard/AdminSidebar";
+import Teachers from "../Teachers/Teachers";
+import Courses from "../Courses/Courses";
 
 const Media = () => {
   const { data: news = [], isFetching } = useQuery({

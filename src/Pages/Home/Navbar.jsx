@@ -84,7 +84,7 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">{navLinks}</ul>
           </div>
           <div className="text-xl bg-first px-4 py-2 rounded-lg text-white font-semibold">
-            <Link>Login</Link>
+            <Link to="/login">Login</Link>
           </div>
         </div>
       </Wrapper>

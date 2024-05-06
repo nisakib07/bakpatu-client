@@ -2,13 +2,10 @@ import React, { useState } from "react";
 
 import adminLogin from "../../assets/adminLogin.json";
 import Lottie from "react-lottie";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const AdminLogin = () => {
-  const [formData, setFormData] = useState({
-    email: "",
-    password: "",
-  });
-
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -18,18 +15,24 @@ const AdminLogin = () => {
     },
   };
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your login logic here
-    console.log("Form submitted:", formData);
+    const Body = {
+      email: e.target.email.value,
+      password: e.target.password.value,
+    };
+
+    axios
+      .post("https://test1.bakpatu.com/api/v1/admin/login", Body)
+      .then((res) => {
+        localStorage.setItem("token", res?.data?.data?.token);
+        navigate("/bpbpadmin");
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
 
   return (
@@ -54,8 +57,6 @@ const AdminLogin = () => {
                 type="email"
                 id="email"
                 name="email"
-                value={formData.email}
-                onChange={handleChange}
                 placeholder="Enter your email"
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               />
@@ -70,8 +71,6 @@ const AdminLogin = () => {
                 type="password"
                 id="password"
                 name="password"
-                value={formData.password}
-                onChange={handleChange}
                 placeholder="Enter your password"
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
               />
@@ -79,7 +78,7 @@ const AdminLogin = () => {
             <div className="flex items-center justify-between">
               <button
                 type="submit"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                className="bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                 Sign In
               </button>
             </div>

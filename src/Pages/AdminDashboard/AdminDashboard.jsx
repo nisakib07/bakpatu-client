@@ -1,12 +1,14 @@
+import React from "react";
+import AdminSidebar from "./AdminSidebar";
 import { Outlet } from "react-router-dom";
-import AdminDrawer from "./AdminDrawer/AdminDrawer";
 
 const AdminDashboard = () => {
   return (
-    <div className="flex gap-4">
-      <AdminDrawer></AdminDrawer>
-
-      <div className="w-full">
+    <div className="flex gap-5">
+      <div className="">
+        <AdminSidebar></AdminSidebar>
+      </div>
+      <div className="flex-1">
         <Outlet></Outlet>
       </div>
     </div>

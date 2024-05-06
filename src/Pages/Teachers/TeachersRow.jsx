@@ -17,10 +17,10 @@ const TeachersRow = ({ teacher }) => {
       <td>{phone}</td>
       <td>{createdAt}</td>
       <td className="flex gap-4 text-lg">
-        <div className="text-orange-400">
+        <div className="text-orange">
           <FaEdit></FaEdit>
         </div>
-        <div className="text-red-600">
+        <div className="text-red">
           <MdDelete></MdDelete>
         </div>
       </td>

@@ -17,11 +17,13 @@ const CourseList = () => {
   });
 
   return (
-    <div className="grid grid-cols-3 gap-2">
+    <div className="grid grid-cols-1 gap-2">
       {courses?.map((course) => (
-        <div key={course?.id} className="mt-3 shadow-2xl p-3 rounded-lg mr-4">
+        <div
+          key={course?.id}
+          className="mt-3 shadow-xl p-3 rounded-lg flex gap-5">
           <img
-            className="w-full h-[200px] rounded-lg"
+            className="w-1/4 object-cover h-[200px] rounded-lg"
             src={course?.bannerImg}
             alt=""
           />
@@ -33,7 +35,7 @@ const CourseList = () => {
             </p>
 
             <Link to={`/bpbpadmin/adminCourseDetails/${course?.id}`}>
-              <p className="bg-green-500 w-32 text-center py-2 rounded-lg mt-2 text-gray-800 font-medium">
+              <p className="bg-first w-32 text-center py-2 rounded-lg mt-2 text-gray-800 font-medium">
                 View Details
               </p>
             </Link>

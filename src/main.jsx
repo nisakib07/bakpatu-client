@@ -13,6 +13,10 @@ import AdminCourseDetails from "./Pages/AdminCourseDetails/AdminCourseDetails";
 import AddCourse from "./Pages/AddCourse/AddCourse";
 import AddClass from "./Pages/AddClass/AddClass";
 import AdminLogin from "./Pages/AdminLogin/AdminLogin";
+import Login from "./Pages/Login/Login";
+import Registration from "./Pages/Registration/Registration";
+import AdminHome from "./Pages/AdminHome/AdminHome";
+import AdminGuard from "./Pages/AdminDashboard/AdminGuard";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +26,14 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
+    path: "/login",
+    element: <Login></Login>,
+  },
+  {
+    path: "/registration",
+    element: <Registration></Registration>,
+  },
+  {
     path: "/adminLogin",
     element: <AdminLogin></AdminLogin>,
   },
@@ -29,6 +41,14 @@ const router = createBrowserRouter([
     path: "/bpbpadmin",
     element: <AdminDashboard></AdminDashboard>,
     children: [
+      {
+        path: "/bpbpadmin",
+        element: (
+          <AdminGuard>
+            <AdminHome></AdminHome>
+          </AdminGuard>
+        ),
+      },
       {
         path: "/bpbpadmin/teachers",
         element: <Teachers></Teachers>,

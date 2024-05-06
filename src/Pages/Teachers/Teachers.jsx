@@ -25,7 +25,7 @@ const Teachers = () => {
       <div className="flex justify-between items-center">
         <h1 className="text-xl font-semibold">All Teachers</h1>
         <Link to="/bpbpadmin/addTeacher">
-          <button className="btn bg-gray-700 hover:bg-gray-800 text-white">
+          <button className="btn bg-black hover:bg-black text-white">
             Add Teacher
           </button>
         </Link>
